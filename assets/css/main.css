@@ -1,0 +1,62 @@
+body p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+body h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.theme-primary-bg-color {
+    background-color: white;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.nav-container {
+    padding: 15px;
+}
+
+#carouselExampleSlidesOnly h1 {
+    text-align:
+}
+
+
+/* .We_Do_Big_Things__With_Big_Ideas_ {
+    font-size: 64px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.25;
+    text-align: left;
+    position: absolute;
+    left: 386.844px;
+    top: 416.226px;
+    z-index: 245;
+} */
+
+.carousel-caption {
+    padding-bottom: 100px;
+    text-align: left;
+}
+
+
+/* .Rectangle_4 {
+    background-color: rgb(245, 245, 245);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1920px;
+    height: 56px;
+    z-index: 257;
+} */
