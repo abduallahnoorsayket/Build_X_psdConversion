@@ -6,6 +6,7 @@ body p {
 body h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
+    padding-bottom: 20px;
 }
 
 h2 {
@@ -27,8 +28,31 @@ h2 {
     padding: 15px;
 }
 
-#carouselExampleSlidesOnly h1 {
-    text-align:
+#carouselExampleSlidesOnly img {
+    height: 856px;
+}
+
+
+/* #carouselExampleSlidesOnly h1 {
+    padding-bottom: 400px;
+}
+
+#carouselExampleSlidesOnly p {
+    padding-bottom: 100px;
+} */
+
+.caption-container {
+    font-size: 64px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.25;
+    text-align: left;
+    position: absolute;
+    left: 286.844px;
+    top: 516.226px;
+    width: 500px;
+    /* z-index: 245; */
 }
 
 
@@ -45,18 +69,17 @@ h2 {
     z-index: 245;
 } */
 
-.carousel-caption {
-    padding-bottom: 100px;
+.carousel-caption text-left {
+    padding-bottom: 400px;
     text-align: left;
 }
 
-
-/* .Rectangle_4 {
-    background-color: rgb(245, 245, 245);
+.Rectangle_2 {
+    background-color: rgb(167, 169, 254);
     position: absolute;
     left: 0px;
     top: 0px;
-    width: 1920px;
-    height: 56px;
-    z-index: 257;
-} */
+    width: 1923px;
+    height: 856px;
+    z-index: 242;
+}
