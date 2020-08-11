@@ -1,85 +1,202 @@
-body p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-}
-
-body h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    padding-bottom: 20px;
-}
-
-h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-}
-
-.theme-primary-bg-color {
-    background-color: white;
-}
-
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.nav-container {
-    padding: 15px;
-}
-
-#carouselExampleSlidesOnly img {
-    height: 856px;
-}
-
-
-/* #carouselExampleSlidesOnly h1 {
+    body p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+    
+    body h5 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 22px;
+        font-family: "Montserrat";
+        color: rgb(59, 64, 79);
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: left;
+    }
+    
+    body h3 {
+        font-size: 30px;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    body h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        padding-bottom: 20px;
+    }
+    
+    body h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 44px;
+        font-family: "Montserrat";
+        color: rgb(59, 64, 79);
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+    .theme-primary-bg-color {
+        background-color: white;
+    }
+    
+    .theme-secondary-bg-color {
+        background-color: rgb(250, 183, 2);
+    }
+    
+    .container {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    
+    .nav-container {
+        padding: 15px;
+    }
+    
+    #carouselExampleSlidesOnly img {
+        height: 856px;
+    }
+    /* #carouselExampleSlidesOnly h1 {
     padding-bottom: 400px;
 }
 
 #carouselExampleSlidesOnly p {
     padding-bottom: 100px;
 } */
-
-.caption-container {
-    font-size: 64px;
-    font-family: "Montserrat";
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    line-height: 1.25;
-    text-align: left;
-    position: absolute;
+    
+    .caption-container {
+        font-size: 64px;
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        line-height: 1.25;
+        text-align: left;
+        position: absolute;
+        left: 286.844px;
+        top: 516.226px;
+        width: 500px;
+        /* z-index: 245; */
+        /* position: absolute;
     left: 286.844px;
     top: 516.226px;
-    width: 500px;
-    /* z-index: 245; */
-}
-
-
-/* .We_Do_Big_Things__With_Big_Ideas_ {
-    font-size: 64px;
-    font-family: "Montserrat";
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    line-height: 1.25;
-    text-align: left;
-    position: absolute;
-    left: 386.844px;
-    top: 416.226px;
-    z-index: 245;
-} */
-
-.carousel-caption text-left {
-    padding-bottom: 400px;
-    text-align: left;
-}
-
-.Rectangle_2 {
-    background-color: rgb(167, 169, 254);
-    position: absolute;
+    width: 500px; */
+    }
+    
+    .carousel-caption text-left {
+        padding-bottom: 400px;
+        text-align: left;
+    }
+    
+    .buttonCaption {
+        background-color: rgb(250, 183, 2);
+        /* position: absolute; */
+        left: 387px;
+        top: 612px;
+        width: 179px;
+        height: 58px;
+        z-index: 250;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        padding-top: 18px;
+    }
+    
+    .contact-container {
+        background-color: rgb(250, 183, 2);
+        height: 80px;
+        padding-left: 400px;
+        padding-top: 30px;
+        height: 104px;
+        color: rgb(255, 255, 255);
+    }
+    
+    .contact-container button {
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        left: 1379px;
+        top: 1029px;
+        width: 151px;
+        height: 38px;
+        z-index: 296;
+        color: rgb(250, 183, 2);
+        line-height: 3.857;
+        text-align: center;
+    }
+    
+    .text-center {
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+    
+    .service-container {
+        width: 1000px;
+        padding-left: 600px;
+        text-align: center;
+        position: relative;
+    }
+    
+    .card-text {
+        font-size: 14px;
+        font-family: "Roboto";
+        color: rgb(109, 115, 150);
+        line-height: 1.714;
+        text-align: left;
+    }
+    
+    .row {
+        margin-top: 50px;
+    }
+    
+    ma .Get_a_Quote {
+        font-size: 14px;
+        font-family: "Roboto";
+        color: rgb(250, 183, 2);
+        line-height: 3.857;
+        text-align: center;
+        position: absolute;
+        left: 1415.937px;
+        top: 934.251px;
+        z-index: 297;
+    }
+    
+    .Rectangle_16 {
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        left: 1379px;
+        top: 884px;
+        width: 151px;
+        height: 48px;
+        z-index: 296;
+    }
+    
+    .contactus {
+        /* background-color: rgb(250, 183, 2); */
+        text-align: start;
+        height: 80px;
+        /* width: 100%; */
+        /* position: absolute;
     left: 0px;
-    top: 0px;
-    width: 1923px;
-    height: 856px;
-    z-index: 242;
-}
+    top: 856px;
+    height: 104px;
+    z-index: 294; */
+    }
+    /* .Consulting_And_Estimate_For_Your_Project__Conta {
+    font-size: 30px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 1.8;
+    text-align: left;
+    position: absolute;
+    left: 389.88px;
+    top: 932.828px;
+    z-index: 299;
+} */
+    
+    .Rectangle_2 {
+        background-color: rgb(167, 169, 254);
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 1923px;
+        height: 856px;
+        z-index: 242;
+    }
