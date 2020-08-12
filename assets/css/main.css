@@ -14,6 +14,15 @@ body h5 {
     text-align: left;
 }
 
+body h6 {
+    font-size: 20px;
+    font-family: "Montserrat";
+    color: rgb(59, 64, 79);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: bold;
+}
+
 body h3 {
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
@@ -45,6 +54,14 @@ body h2 {
 
 .theme-third-bg-color {
     background-color: rgb(248, 248, 248);
+}
+
+.theme-fourth-bg-color {
+    background-color: rgb(37, 44, 58);
+}
+
+.theme-fifth-bg-color {
+    background-color: rgb(76, 91, 109);
 }
 
 .container {
@@ -187,6 +204,57 @@ body h2 {
 
 .digit-container h2 {
     color: rgb(255, 255, 255);
+}
+
+.card {
+    padding-top: 200x;
+    margin-left: 450px;
+}
+
+.base {
+    background-color: rgb(76, 91, 109);
+    position: absolute;
+    left: 0px;
+    top: 6714px;
+    width: 1922px;
+    height: 59px;
+    z-index: 21;
+}
+
+.base {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(241, 241, 241);
+    background-color: rgb(255, 255, 255);
+    /* padding-top: 100px; */
+    /* position: absolute; */
+    left: 389px;
+    top: 5041px;
+    width: 1141px;
+    height: 121px;
+    z-index: 144;
+}
+
+.Embedded_in_our_culture_of_hard_work__honesty__ {
+    font-size: 20px;
+    font-family: "Montserrat";
+    color: rgb(59, 64, 79);
+    line-height: 1.2;
+    text-align: left;
+    position: absolute;
+    left: 536.938px;
+    top: 5103.198px;
+    z-index: 152;
+}
+
+.base {
+    background-color: rgb(37, 44, 58);
+    position: absolute;
+    left: 0px;
+    top: 6266px;
+    width: 1922px;
+    height: 448px;
+    z-index: 5;
 }
 
 
