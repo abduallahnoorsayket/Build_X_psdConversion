@@ -43,6 +43,10 @@
         background-color: rgb(250, 183, 2);
     }
     
+    .theme-third-bg-color {
+        background-color: rgb(248, 248, 248);
+    }
+    
     .container {
         position: relative;
         text-align: center;
@@ -146,7 +150,29 @@
         margin-top: 50px;
     }
     
-    ma .Get_a_Quote {
+    .card-deck {
+        margin-bottom: 50px;
+    }
+    
+    .col-6 {
+        padding-top: 100px;
+    }
+    
+    .col-1 {
+        padding-top: 100px;
+    }
+    
+    .Rectangle_15 {
+        background-color: rgb(248, 248, 248);
+        position: absolute;
+        left: 959px;
+        top: 1946px;
+        width: 961px;
+        height: 713px;
+        z-index: 272;
+    }
+    
+    .Get_a_Quote {
         font-size: 14px;
         font-family: "Roboto";
         color: rgb(250, 183, 2);
