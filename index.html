@@ -306,7 +306,7 @@
 
             </div>
 
-            <div class="container-fluid">
+            <div class="container-fluid mb-10">
                 <!-- the isotoe menu  -->
                 <div class="isotope-menu">
                     <ul>
@@ -318,7 +318,7 @@
                 </div>
 
                 <!-- isotope items  -->
-                <div class="isotope-item">
+                <div class="isotope-item ml-5">
                     <div class="item green">
                         <img src="images/green01.jpg" alt="">
 
@@ -360,6 +360,11 @@
             <br>
             <br>
             <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br>
 
 
         </section>
@@ -367,7 +372,7 @@
         <!-- customer feed back -->
         <section>
             <div class="container theme-primary-bg-color ">
-                <section class="text-center ">
+                <section class="text-center">
                     <div class="container text-center ">
                         <h2>CUSTOMER FEEDBACK </h2>
                         <p class="lead text-muted ">
@@ -944,8 +949,25 @@
     </script>
 
     <script>
+        $('.isotope-item').isotope({
+            itemSelector: '.item',
+            layoutMode: 'fitRows'
+        });
+        $('.isotope-menu ul li').click(function() {
+            $('.isotope-menu ul li').removeClass('active');
+            $(this).addClass('active');
+
+            var selector = $(this).attr('data-filter');
+            $('.isotope-item').isotope({
+                filter: selector
+
+            });
+            return false;
+        });
     </script>
 
 </body>
+
+</html>
 
 </html>

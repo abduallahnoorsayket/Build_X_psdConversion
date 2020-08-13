@@ -147,8 +147,9 @@ body h2 {
 }
 
 .text-center {
-    padding-top: 70px;
+    padding-top: 10px;
     padding-bottom: 40px;
+    margin-top: 200px;
 }
 
 .service-container {
@@ -240,6 +241,11 @@ body h2 {
 
 /* .isotope-item {
     width: 100%;
+} */
+
+
+/* .isotope-item {
+    width: 100%;
 }
 
 .isotope-item .item {
@@ -252,8 +258,9 @@ margin-bottom: 10px;
 */
 
 .isotope-item img {
-    width: 200px;
+    width: 250px;
     float: left;
+    margin: 5px;
 }
 
 
