@@ -26,6 +26,7 @@ body h6 {
 body h3 {
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
+    /* color: black; */
 }
 
 body h1 {
@@ -211,6 +212,11 @@ body h2 {
     margin-left: 450px;
 }
 
+
+/* the css for Isotope */
+
+
+/* 
 .base {
     background-color: rgb(76, 91, 109);
     position: absolute;
@@ -227,13 +233,9 @@ body h2 {
     border-color: rgb(241, 241, 241);
     background-color: rgb(255, 255, 255);
     /* padding-top: 100px; */
-    /* position: absolute; */
-    left: 389px;
-    top: 5041px;
-    width: 1141px;
-    height: 121px;
-    z-index: 144;
-}
+
+
+/* position: absolute; */
 
 .Embedded_in_our_culture_of_hard_work__honesty__ {
     font-size: 20px;
@@ -257,7 +259,7 @@ body h2 {
     z-index: 5;
 }
 
-
+*/
 /* .d-flex {
     position: absolute; */
 
