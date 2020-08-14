@@ -149,7 +149,7 @@ body h2 {
 .text-center {
     padding-top: 10px;
     padding-bottom: 40px;
-    margin-top: 200px;
+    margin-top: 90px;
 }
 
 .service-container {
@@ -238,9 +238,14 @@ body h2 {
     color: black;
 }
 
+.isotope-container {
+    margin-left: 50px;
+}
+
 
 /* .isotope-item {
     width: 100%;
+    margin-left: 100px;
 } */
 
 
