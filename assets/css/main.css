@@ -352,3 +352,26 @@ margin-bottom: 10px;
     z-index: 11;
     margin-left: 130px;
 }
+
+.videoImage {
+    /* background-color: rgb(255, 206, 80); */
+    /* position: absolute; */
+    left: 0px;
+    /* top: 1946px; */
+    /* width: 959px; */
+    /* height: 713px; */
+    z-index: 290;
+}
+
+.playbtn {
+    background-color: rgb(255, 255, 255);
+    /* position: absolute; */
+    left: 802px;
+    /* top: 2356px; */
+    width: 69px;
+    height: 69px;
+    z-index: 291;
+    top: -50%;
+    /* cursor: pointer;
+    opacity: 0; */
+}
